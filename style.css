@@ -486,7 +486,10 @@ footer {
     max-height: 100%;
   }
   .mini-profile p {
-    margin: 5px 0 !important;
+    margin: 4.5px 0 !important;
+  }
+  .mini-profile .mini-custom-fields {
+    display: none;
   }
   td.content {
     display: block;
