@@ -466,8 +466,8 @@ footer {
   }
   .mini-profile {
     width: auto !important;
-    min-height: 100px;
-    padding: 0 0 10px 110px !important;
+    min-height: 90px;
+    padding: 0 0 10px 100px !important;
     border: none !important;
     position: relative; }
   .mini-profile .avatar {
@@ -477,8 +477,8 @@ footer {
   }
   .mini-profile .avatar,
   .mini-profile .avatar-wrapper {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     margin: 0 !important;
   }
   .mini-profile .avatar img {
