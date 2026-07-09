@@ -81,6 +81,9 @@ header {
 .container .mb {
   margin-bottom: 0;
 }
+.container .tc {
+  text-align: center;
+}
 .container .font-sm,
 .news-preview {
   font-size: 85%;
