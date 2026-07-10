@@ -40,10 +40,6 @@ h2 .title_wrapper,
   padding: 0 10px !important;
   line-height: 28px !important;
 }
-#navigation-menu #welcome,
-#welcome a {
-  line-height: 28px !important;
-}
 #navigation-menu li:hover,
 #navigation-menu a:hover {
   background-color: black !important;
@@ -54,6 +50,11 @@ h2 .title_wrapper,
 #welcome {
   padding: 0 5px 0 10px;
   overflow: hidden;
+}
+#welcome,
+#welcome a,
+#mobile-nav-toggle {
+  line-height: 28px !important;
 }
 #welcome a {
   padding: 0 5px !important;
@@ -100,7 +101,7 @@ h2 {
 }
 #content .container > .title-bar h1,
 #content .container > .title-bar > .controls li a {
-  line-height: 1.2 !important;
+  line-height: 28px !important;
 }
 td.icon img {
   width: 50px;
@@ -402,7 +403,6 @@ footer {
     position: absolute;
     top: 0;
     right: 0;
-    line-height: 1.2 !important;
     padding: 5px 10px;
     border: none;
   }
