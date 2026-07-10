@@ -32,8 +32,7 @@ header {
   margin-bottom: 10px !important;
   padding: 0 !important;
 }
-#navigation-menu > ul li a,
-#welcome a,
+#wrapper #navigation-menu > ul li a,
 .ui-dialog-titlebar,
 h1 .title_wrapper,
 h2 .title_wrapper,
@@ -41,8 +40,8 @@ h2 .title_wrapper,
   padding: 0 10px !important;
   line-height: 28px !important;
 }
-#wrapper #navigation-menu > ul li a,
-#navigation-menu #welcome {
+#navigation-menu #welcome,
+#welcome a {
   line-height: 28px !important;
 }
 #navigation-menu li:hover,
@@ -55,9 +54,6 @@ h2 .title_wrapper,
 #welcome {
   padding: 0 5px 0 10px;
   overflow: hidden;
-}
-#welcome span {
-  padding: 0 !important;
 }
 #welcome a {
   padding: 0 5px !important;
@@ -89,6 +85,7 @@ h2 {
 #wrapper #navigation-menu > ul li a,
 #welcome span,
 #welcome a,
+#mobile-nav-toggle,
 #ui-dialog-title-recent-threads,
 #content .container > .title-bar h1,
 #content .container > .title-bar h2,
@@ -405,7 +402,6 @@ footer {
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 11pt;
     line-height: 1.2 !important;
     padding: 5px 10px;
     border: none;
