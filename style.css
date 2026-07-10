@@ -48,13 +48,18 @@ h2 .title_wrapper,
   background-color: transparent !important;
 }
 #welcome {
-  padding: 0 5px 0 10px;
+  padding: 0 5px;
 }
 #welcome,
 #welcome span,
 #welcome a,
 #mobile-nav-toggle {
   line-height: 28px !important;
+}
+#welcome span,
+#welcome a,
+#mobile-nav-toggle {
+  display: inline-block;
 }
 #welcome a {
   padding: 0 5px !important;
@@ -163,7 +168,7 @@ td.icon img {
 }
 .guest_name,
 .guest_name_input {
-  padding-bottom: 8px;
+  padding-bottom: 5px;
 }
 .guest_name_input input,
 .thread_edit_meta input {
