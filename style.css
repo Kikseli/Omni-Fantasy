@@ -39,6 +39,7 @@ h1 .title_wrapper,
 h2 .title_wrapper,
 #forum-notifications .title-bar {
   padding: 0 10px !important;
+  line-height: 28px !important;
 }
 #wrapper #navigation-menu > ul li a,
 #navigation-menu #welcome {
