@@ -112,7 +112,8 @@ td.icon img {
   width: 50px;
   height: 50px;
 }
-.boards .main {
+.boards .main,
+.threads .main {
   width: auto !important;
   padding: 10px !important;
 }
@@ -124,11 +125,13 @@ td.icon img {
   padding: 5px 0 0 !important;
 }
 .boards .threads,
-.boards .posts {
+.boards .posts,
+.threads .replies,
+.threads .views {
   width: 7% !important;
 }
-.boards .latest {
-  width: 20% !important;
+.threads .created-by {
+  width: 10% !important;
 }
 .stats .content > table > tbody > tr:first-of-type td.icon img {
   width: 60px;
