@@ -130,6 +130,10 @@ td.icon img {
 .threads .views {
   width: 7% !important;
 }
+.threads .replies,
+.threads .views {
+  font-family: "Roboto Condensed", Impact, Arial, sans-serif !important;
+}
 .threads .created-by {
   width: 10% !important;
 }
