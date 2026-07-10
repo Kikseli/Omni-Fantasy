@@ -38,11 +38,11 @@ header {
 h1 .title_wrapper,
 h2 .title_wrapper,
 #forum-notifications .title-bar {
-  padding: 5px 10px !important;
+  padding: 0 10px !important;
 }
 #wrapper #navigation-menu > ul li a,
 #navigation-menu #welcome {
-  line-height: 1.2 !important;
+  line-height: 28px !important;
 }
 #navigation-menu li:hover,
 #navigation-menu a:hover {
@@ -52,14 +52,14 @@ h2 .title_wrapper,
   background-color: transparent !important;
 }
 #welcome {
-  padding: 5px 5px 5px 10px;
+  padding: 0 5px 0 10px;
   overflow: hidden;
 }
 #welcome span {
-  padding: 5px 0 !important;
+  padding: 0 !important;
 }
 #welcome a {
-  padding: 5px !important;
+  padding: 0 5px !important;
 }
 #mobile-nav-toggle {
   display: none;
