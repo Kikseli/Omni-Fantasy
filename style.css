@@ -125,10 +125,10 @@ td.icon img {
 }
 .boards .threads,
 .boards .posts {
-  width: 6% !important;
+  width: 7% !important;
 }
 .boards .latest {
-  width: 19% !important;
+  width: 20% !important;
 }
 .stats .content > table > tbody > tr:first-of-type td.icon img {
   width: 60px;
@@ -138,7 +138,7 @@ td.icon img {
 /* Control bar */
 .control-bar {
   position: sticky;
-  top: 27px;
+  top: 28px;
   z-index: 1000;
 }
 .control-bar > .float-left {
@@ -389,7 +389,7 @@ footer {
   body.nav-open #navigation-menu ul {
     display: block;
     position: absolute;
-    top: 27px;
+    top: 28px;
     right: 0;
     z-index: 2000;
   }
