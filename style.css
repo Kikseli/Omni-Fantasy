@@ -54,7 +54,7 @@ h2 .title_wrapper,
 #welcome span,
 #welcome a,
 #mobile-nav-toggle,
-#ui-dialog-title-recent-threads {
+.ui-dialog-title {
   line-height: 28px !important;
 }
 #welcome span,
@@ -68,9 +68,9 @@ h2 .title_wrapper,
 #mobile-nav-toggle {
   display: none;
 }
-#ui-dialog-title-recent-threads {
-  margin-top: 0;
-  margin-bottom: 0;
+.ui-dialog-title {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 /* Titles */
@@ -78,7 +78,7 @@ h1,
 h2,
 #navigation-menu a,
 #welcome,
-#ui-dialog-title-recent-threads,
+.ui-dialog-title,
 ul.controls a {
   font-family: "Roboto Condensed", Impact, Arial, sans-serif !important;
   font-weight: 500 !important;
@@ -93,7 +93,7 @@ h2 {
 #welcome span,
 #welcome a,
 #mobile-nav-toggle,
-#ui-dialog-title-recent-threads,
+.ui-dialog-title,
 #content .container > .title-bar h1,
 #content .container > .title-bar h2,
 #content ul.controls a {
