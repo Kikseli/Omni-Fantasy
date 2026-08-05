@@ -2,22 +2,32 @@ document.querySelectorAll(".user-link").forEach(link => {
   link.removeAttribute("title");
 });
 
-function formatTimestamp(timestamp) {
-  const date = new Date(timestamp);
+function formatTimestamps() {
+  document.querySelectorAll("abbr.o-timestamp").forEach((el) => {
+    const timestamp = Number(el.dataset.timestamp);
 
-  return (
-    `${date.getDate()}.${date.getMonth() + 1}.${date.getFullYear()} ` +
-    `klo ${String(date.getHours()).padStart(2, "0")}:` +
-    `${String(date.getMinutes()).padStart(2, "0")}`
-  );
+    if (!timestamp) {
+      return;
+    }
+
+    const date = new Date(timestamp);
+
+    const formatted =
+      `${date.getDate()}.${date.getMonth() + 1}.${date.getFullYear()} ` +
+      `klo ${String(date.getHours()).padStart(2, "0")}:` +
+      `${String(date.getMinutes()).padStart(2, "0")}`;
+
+    if (el.textContent !== formatted) {
+      el.textContent = formatted;
+    }
+  });
 }
 
-document.querySelectorAll("abbr.o-timestamp").forEach((el) => {
-  const timestamp = Number(el.dataset.timestamp);
+formatTimestamps();
 
-  if (!timestamp) {
-    return;
-  }
-
-  el.textContent = formatTimestamp(timestamp);
+new MutationObserver(() => {
+  formatTimestamps();
+}).observe(document.body, {
+  childList: true,
+  subtree: true
 });
