@@ -510,6 +510,9 @@ footer {
   .summary > .content {
     padding: 5px 10px !important;
   }
+  .abbr.time.recent_time {
+    font-weight: normal !important;
+  }
   .posts .foot {
     padding-left: 0 !important;
   }
