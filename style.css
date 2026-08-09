@@ -202,6 +202,15 @@ td.icon img {
 .quick-reply form {
   text-align: right;
 }
+abbr.time.recent_time {
+  font-weight: normal !important;
+  font-style: italic !important;
+}
+img.smile,
+.smiley-menu img {
+  width: 25px;
+  height: 25px;
+}
 
 /* Links */
 a,
@@ -512,11 +521,6 @@ footer {
   }
   .posts .foot {
     padding-left: 0 !important;
-  }
-  img.smile,
-  .smiley-menu img {
-    width: 25px;
-    height: 25px;
   }
 
   /* Search */
