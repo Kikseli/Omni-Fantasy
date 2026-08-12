@@ -161,9 +161,6 @@ header {
 .footer-wrapper.affiliates {
   padding: 2.5dvh 10px 0 !important;
 }
-.footer-wrapper.affiliates p {
-  padding: 10px 0;
-}
 .footer-wrapper {
   position: relative;
   padding: 0 10px 2.5dvh;
