@@ -364,16 +364,34 @@ footer {
 }
 
 /* Custom */
-.fullwidth {
+.fullwidth,
+.width100 {
   width: 100% !important;
+}
+.width75 {
+  width: 75% !important;
+}
+.width66 {
+  width: 66.666% !important;
+}
+.width50 {
+  width: 50% !important;
+}
+.width33 {
+  width: 33.333% !important;
+}
+.width25 {
+  width: 25% !important;
 }
 .fullwidth .nimi,
 .fullwidth .kotipaikka,
-.fullwidth .puoliso {
-  width: 20%;
+.fullwidth .puoliso,
+.width20 {
+  width: 20% !important;
 }
-.fullwidth .ika {
-  width: 4%;
+.fullwidth .ika,
+.width5 {
+  width: 5% !important;
 }
 .roboto-condensed {
   font-family: "Roboto Condensed", Arial, sans-serif;
