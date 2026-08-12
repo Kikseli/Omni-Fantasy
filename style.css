@@ -368,6 +368,12 @@ footer {
 .width100 {
   width: 100% !important;
 }
+.width90 {
+  width: 90% !important;
+}
+.width80 {
+  width: 80% !important;
+}
 .width75 {
   width: 75% !important;
 }
