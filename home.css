@@ -159,12 +159,14 @@ header {
   pointer-events: none;
 }
 .footer-wrapper.affiliates {
-  padding-bottom: 0 !important;
-  text-align: center;
+  padding: 2.5dvh 10px 0 !important;
+}
+.footer-wrapper.affiliates p {
+  margin: 10px 0;
 }
 .footer-wrapper {
   position: relative;
-  padding: 2.5dvh 10px;
+  padding: 0 10px 2.5dvh;
 }
 @media only screen and (max-width: 768px) {
   #banner {
