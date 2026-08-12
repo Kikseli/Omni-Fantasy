@@ -159,7 +159,7 @@ header {
   pointer-events: none;
 }
 .footer-wrapper.affiliates {
-  padding-bottom: 0;
+  padding-bottom: 0 !important;
   text-align: center;
 }
 .footer-wrapper {
