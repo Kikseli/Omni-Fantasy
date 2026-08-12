@@ -399,6 +399,9 @@ footer {
 .width5 {
   width: 5% !important;
 }
+.bg-cover {
+  background-size: cover;
+}
 .roboto-condensed {
   font-family: "Roboto Condensed", Arial, sans-serif;
 }
