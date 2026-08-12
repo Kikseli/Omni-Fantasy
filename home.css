@@ -33,7 +33,6 @@ header {
 }
 #navigation-menu::before,
 .container::before,
-#affiliates::before,
 .footer-wrapper::before {
   content: "";
   position: absolute;
@@ -45,7 +44,6 @@ header {
   z-index: -1;
 }
 #navigation-menu::before,
-#affiliates::before,
 .footer-wrapper::before {
   background-color: #1c1c1c;
 }
@@ -160,9 +158,8 @@ header {
   opacity: 0;
   pointer-events: none;
 }
-#affiliates {
-  position: relative;
-  padding: 2.5dvh 10px 0;
+.footer-wrapper.affiliates {
+  padding-bottom: 0;
   text-align: center;
 }
 .footer-wrapper {
