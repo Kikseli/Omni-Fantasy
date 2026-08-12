@@ -163,6 +163,7 @@ header {
 #affiliates {
   position: relative;
   padding: 2.5dvh 10px 0;
+  text-align: center;
 }
 .footer-wrapper {
   position: relative;
