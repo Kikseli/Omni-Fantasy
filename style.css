@@ -402,6 +402,9 @@ footer {
 .roboto-condensed {
   font-family: "Roboto Condensed", Arial, sans-serif;
 }
+.center {
+  text-align: center;
+}
 .chocobo-opas td {
   padding: 0 !important;
 }
