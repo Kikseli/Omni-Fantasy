@@ -162,7 +162,7 @@ header {
   padding: 2.5dvh 10px 0 !important;
 }
 .footer-wrapper.affiliates p {
-  margin: 10px 0;
+  padding: 10px 0;
 }
 .footer-wrapper {
   position: relative;
