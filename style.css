@@ -375,6 +375,9 @@ footer {
 .fullwidth .ika {
   width: 4%;
 }
+.roboto-condensed {
+  font-family: "Roboto Condensed", Arial, sans-serif;
+}
 .chocobo-opas td {
   padding: 0 !important;
 }
