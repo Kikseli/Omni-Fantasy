@@ -199,6 +199,11 @@ td.icon img {
   order: 2;
   margin-left: auto;
 }
+.quick-reply textarea {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 10pt;
+  line-height: normal;
+}
 .quick-reply form {
   text-align: right;
 }
